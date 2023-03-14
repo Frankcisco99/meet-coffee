@@ -1,0 +1,264 @@
+
+/* 
+
+Configuraciones generales 
+
+
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-section, .main-section, .ubicacion{
+    width: 57%;
+    margin: auto;
+}
+
+/* 
+
+    Fin configuraciones generales
+
+*/
+
+
+
+
+
+/* 
+
+Estilos globales (ambos archivos html)
+
+*/
+
+/* Estilos para el navbar */
+.navbar{
+    width: 100%;
+    background-color: #000F08;
+    height: 99px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    margin-left: 57px;
+    gap: 55px;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.navbar ul li a:hover{
+    cursor: pointer;
+    color: red;
+    transition: .5s;
+}
+
+/* Fin estilos navbar */
+
+/* Estilos footer */
+.footer-section{
+    margin-top: 120px;
+    width: 100%;
+    height: 284px;
+    background-color: #000F08;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-section p{
+    font-size: 25px;
+}
+
+.icons{
+    display: flex;
+    gap:27px;
+}
+
+/*Fin Estilos footer */
+
+/* 
+
+Fin Estilos globales (ambos archivos html)
+
+*/
+
+
+
+/* 
+
+    ESTILOS INDEX.HTML
+
+*/
+
+/* Estilos para la portada html */
+.jumbo-section{
+    background-image: url('../img/bg-hero.png');
+    height: 422px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    color: white;
+    padding-right: 197px;
+}
+
+.jumbo-section h1{
+    font-size: 60px;
+    text-align:right;
+}
+
+.jumbo-section h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+/* Fin Estilos para la portada html */
+
+/* Estilos seccion ubicacion */
+.ubicacion{
+    text-align: center;
+    margin-top: 153px;
+}
+
+.ubicacion h2{
+    font-size: 45px;
+    margin-top: 48px;
+    margin-bottom: 15px;
+}
+.ubicacion p{
+    font-size: 25px;
+}
+
+.ubicacion img{
+    height: 344px;
+    width: 519px;
+}
+/* fin estilos para ubicacion */
+
+/* estilos sweetbrown */
+
+.sweet-brown > .centrado{
+    margin-top: 131px;
+    width: 100%;
+    height: 501px;
+    background-color: #A4452C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.centrado > .charla-texto{
+    width: 706px;
+    color: white;
+}
+
+.centrado img{
+    width: 312px;
+    height: 294px;
+}
+
+.charla-texto h2{
+    font-size: 45px;
+}
+.charla-texto h3{
+    font-size: 40px;
+}
+.charla-texto h4{
+    font-size: 33px;
+}
+.charla-texto h5{
+    font-size: 20px;
+}
+.charla-texto p{
+    font-size: 25px;
+}
+
+/*fin  estilos sweetbrown */
+
+/* Estilos eventos */
+.eventos{
+    margin-top: 143px;
+    text-align: center;
+}
+
+.eventos h2{
+    font-size: 45px;
+}
+
+.eventos-articles{
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.evento{
+    text-align: center;
+}
+
+.evento h3{
+    font-size: 35px;
+    margin-top: 48px;
+}
+
+/* fin estilos eventos */
+
+/* 
+
+   FIN ESTILOS INDEX.HTML
+
+*/
+
+/* 
+
+    ESTILOS INDEX2.HTML
+
+*/
+
+/* estilos hero section html2 */
+
+.hero-section h1{
+    margin-top: 196px;
+    margin-bottom: 73px;
+    font-size: 45px;
+}
+
+.hero-section img{
+    width: 100%;
+}
+
+/* Fin estilos hero section html2 */
+
+/* estilos main section html2 */
+.main-section{
+    margin-top: 73px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.main-section h2{
+    margin-top: 15px;
+    margin-bottom: 46px;
+    font-size: 40px;
+}
+/* Fin estilos main section html2 */
+
+/* 
+
+  FIN ESTILOS INDEX.HTML
+
+*/
